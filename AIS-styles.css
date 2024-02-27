@@ -468,7 +468,10 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
     padding: 45px 0px;
+<<<<<<< HEAD
     color: #fff;
+=======
+>>>>>>> 63985ce03ea89f7659e7693d5f604461459e6866
 }
 
 .footer .grupo-1 .box-f figure {
@@ -480,6 +483,7 @@ main {
 }
 
 .footer .grupo-1 .box-f figure img {
+<<<<<<< HEAD
     width: 270px;
 }
 
@@ -492,6 +496,44 @@ main {
     padding: 15px 10px;
     text-align: center;
     color: #757575;
+=======
+    width: 250px;
+}
+
+.footer .grupo-1 .box-f h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.footer .grupo-1 .box-f p {
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.footer .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.footer .grupo-1 .red-social a:hover {
+    color: aqua;
+}
+
+.footer .grupo-2 {
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+>>>>>>> 63985ce03ea89f7659e7693d5f604461459e6866
 }
 
 .footer .grupo-2 small {
@@ -500,7 +542,11 @@ main {
 
 @media screen and (max-width:800px) {
     .footer .grupo-1 {
+<<<<<<< HEAD
         width: 75%;
+=======
+        width: 90%;
+>>>>>>> 63985ce03ea89f7659e7693d5f604461459e6866
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
         padding: 35px 0px;

@@ -189,9 +189,13 @@ main {
     grid-template-columns: repeat(8, 1fr);
 }
 
+
+/*About us*/
 .main-page__about{
     grid-column: 1/9;
     margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .main-page__about--us{
@@ -204,34 +208,41 @@ main {
     text-align: center;
     grid-column:1 / 9;
     grid-row: 2;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
-.hrAbout{
+.hrAbout {
   border-radius: 3px;
   background-color: #000;
   height: 1px;
   color: #000;
-  width: 80vw;
+  width: 100%;
   grid-column: 1 / 9;
   grid-row: 3 / 4;
   margin: 0 auto;
 }
 
-.about-us__second{
-    text-align: center;
-    grid-column:1 / 9;
-    grid-row: 4;
-    margin-bottom: 20px;
+.about-us__second {
+  text-align: center;
+  grid-column: 1 / 9;
+  grid-row: 4;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.aboutUs--img{
-  grid-column: 2/6;
-  margin: auto 0;
+.aboutUs--img {
+  grid-column: 1/9;
+  grid-row: 5;
+  margin-top: 10px;
 }
 
+.aboutUs--img__IMG {
+  width: 100%;
+  min-width: auto;
+}
 
-
+/*What*/
 .main-page__what{
   grid-column: 1/8;
   gap: 40px ;
@@ -254,10 +265,6 @@ main {
 
 .abp__references--IMG{
   margin-top: 40px;
-}
-
-.aboutUs--img__IMG{
-  max-width: 350px;
 }
 
 .abp_references--h2{
@@ -367,21 +374,23 @@ main {
 
 
 #contacto_container {
+  text-align: center;
+  grid-column: 1 / 9;
   display: flex;
-  padding: 10px;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
   /*align-self: stretch;*/
-
   width: auto;
-  height: auto;
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.20) 100%), url('../images/MHQWerkx4NRrNSJEnGNX--1--n74fr.webp'), lightgray 50% / cover no-repeat;
+  height: 650px;
+  margin: 10px;
+  gap: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.20) 100%), url('./images/MHQWerkx4NRrNSJEnGNX--1--n74fr.webp'), lightgray 50% / cover no-repeat;
   /*background-image: url('./styles/MHQWerkx4NRrNSJEnGNX--1--n74fr.webp');*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-
 }
 
 
@@ -402,15 +411,6 @@ main {
   background-color: unset;
 }
 
-/*Estas son las fuentes del formulario:*/
-.input_form {
-  color: #FFF;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-
 #message {
   height: 116px;
 }
@@ -419,7 +419,18 @@ main {
   border-radius: 10px;
   background: #1A182F;
   height: 57px;
+  border: none;
 }
+
+/*Fuentes del formulario:*/
+.input_form {
+  color: #FFF;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 
 
 .contact--h2{
@@ -437,10 +448,7 @@ main {
   grid-column:1 / 9;
 }
 
-#contacto_container{
-    text-align: center;
-    grid-column:1 / 9;
-}
+
 
 /*Footer*/
 
@@ -468,10 +476,7 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
     padding: 45px 0px;
-<<<<<<< HEAD
     color: #fff;
-=======
->>>>>>> 63985ce03ea89f7659e7693d5f604461459e6866
 }
 
 .footer .grupo-1 .box-f figure {
@@ -483,7 +488,6 @@ main {
 }
 
 .footer .grupo-1 .box-f figure img {
-<<<<<<< HEAD
     width: 270px;
 }
 
@@ -496,44 +500,6 @@ main {
     padding: 15px 10px;
     text-align: center;
     color: #757575;
-=======
-    width: 250px;
-}
-
-.footer .grupo-1 .box-f h2 {
-    color: #fff;
-    margin-bottom: 25px;
-    font-size: 20px;
-}
-
-.footer .grupo-1 .box-f p {
-    color: #efefef;
-    margin-bottom: 10px;
-}
-
-.footer .grupo-1 .red-social a {
-    display: inline-block;
-    text-decoration: none;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    color: #fff;
-    margin-right: 10px;
-    background-color: #0d2033;
-    text-align: center;
-    transition: all 300ms ease;
-}
-
-.footer .grupo-1 .red-social a:hover {
-    color: aqua;
-}
-
-.footer .grupo-2 {
-    background-color: #0a1a2a;
-    padding: 15px 10px;
-    text-align: center;
-    color: #fff;
->>>>>>> 63985ce03ea89f7659e7693d5f604461459e6866
 }
 
 .footer .grupo-2 small {
@@ -542,11 +508,7 @@ main {
 
 @media screen and (max-width:800px) {
     .footer .grupo-1 {
-<<<<<<< HEAD
         width: 75%;
-=======
-        width: 90%;
->>>>>>> 63985ce03ea89f7659e7693d5f604461459e6866
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
         padding: 35px 0px;
@@ -627,9 +589,25 @@ main {
     width: auto;
   }
 
+
+  /*About us*/
   .aboutUs--img{
-    max-width: 600px;
-    grid-column: 1 / 9;
+    width: 100%;
+    grid-column: 2/8;
+  }
+
+  .hrAbout {
+    grid-column: 2/8;
+  }
+
+  .about-us__first {
+    margin: 30px;
+    grid-column: 2/8;
+  }
+
+  .about-us__second {
+    margin: 30px;
+    grid-column: 2/8;
   }
 }
 
@@ -672,22 +650,8 @@ main {
   }
   
   #contacto_container{
-    margin-left: 50px;
-    max-width: 90vw;
-    max-height: 90vh;
+    grid-column: 1 / 9;
+    margin-inline: 20vh;
   }
 
-  .about-us__first {
-    margin: 50px;
-  }
-
-
-  .about-us__second {
-    margin: 30px;
-  }
-
-  .aboutUs--img{
-    grid-column: 1 / 9 ;
-    width: 800px;
-  }
 }

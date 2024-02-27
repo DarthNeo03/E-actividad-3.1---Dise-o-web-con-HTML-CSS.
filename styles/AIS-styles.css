@@ -495,6 +495,15 @@ main {
     margin-bottom: 25px;
 }
 
+.footer .grupo-1 .box-f li {
+  list-style-type: disc;
+  margin-left: 19px;
+}
+
+.footer .grupo-1 .box-f a {
+  color: #fff;
+}
+
 .footer .grupo-2 {
     background-color: rgba(66, 66, 66, 0.32);
     padding: 15px 10px;
@@ -545,8 +554,13 @@ main {
     display: none;
   }
     
-  .header__nav{
+  .header__nav {
     display: inline-block;
+    text-decoration: none;
+  }
+
+  .header__nav__ul__li a {
+    color: #fff;
   }
 
   .header{
@@ -609,7 +623,12 @@ main {
     margin: 30px;
     grid-column: 2/8;
   }
+
+  #ul-products {
+    margin-left: 12%;
+  }
 }
+
 
 
 /*############################  Desktop styles  ############################*/

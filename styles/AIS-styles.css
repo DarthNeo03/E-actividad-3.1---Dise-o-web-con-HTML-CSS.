@@ -691,7 +691,7 @@ main {
   }
   
   .header{
-    z-index: 100w;
+    z-index: 100;
   }
 
   .frame1{
@@ -710,7 +710,13 @@ main {
   }
 
   .frame{
+    width: 70%;
+    top: 168px;
     user-select: none;
 
+  }
+
+  .landing-page{
+    z-index: 100;
   }
 }

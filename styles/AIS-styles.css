@@ -256,17 +256,19 @@ main {
 
 }
 
-.abp__references{
-  height: 440px;
-  width: auto;
-  background-color: 232627;
+.main-page__what-container {
+  display: grid;
+  gap: 40px;
+  grid-row: 3;
   grid-column: 1 / 9;
+  margin-inline: 5vw;
 }
 
 .abp__references{
-  height: 440px;
+  height: 390px;
   width: auto;
   background-color: #232627;
+  grid-column: 1 / 9;
   text-align: center;
 }
 
@@ -639,6 +641,20 @@ main {
     grid-column: 2/8;
   }
 
+  /*What*/
+  .abp__references{
+    width: auto;
+    text-align: center;
+  }
+
+  .c-left {
+    grid-column: 1 / 5;
+  }
+  .c-right {
+    grid-column: 5 / 9;
+  }
+
+  /*Footer*/
   #ul-products {
     margin-left: 12%;
   }
@@ -649,20 +665,6 @@ main {
 /*############################  Desktop styles  ############################*/
 
 @media screen and (min-width: 1200px){
-
-  .personalI{
-    grid-column: 1 / 5;
-  }
-  .empresarial{
-    grid-column: 5 / 9;
-  }
-
-  .informationV{
-    grid-column: 1 / 5;
-  }
-  .seguridad{
-    grid-column: 5 / 9;
-  }
 
   .conteCarrousel{
     margin: 0 auto;

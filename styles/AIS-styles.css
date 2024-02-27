@@ -359,6 +359,14 @@ main {
   background-color: rgb(200, 226, 50);
 }
 
+#itemCarrousel-4{
+  background-color: rgb(226, 50, 129);
+}
+
+#itemCarrousel-5{
+  background-color: rgb(50, 226, 114);
+}
+
 .conteCarrouselController{
   width: 100%;
   display: flex;

@@ -182,27 +182,31 @@ main {
   font-family:Arial, Helvetica, sans-serif;
 }
 
-.main-page{
-    height: 4304px;
+.main-page {
+    height: auto;
     background: linear-gradient(180deg, #D9D9D9 0%, rgba(255, 255, 255, 0.48) 59.5%, rgba(255, 255, 255, 0.34) 78%, rgba(255, 255, 255, 0.00) 100%);
     grid-column: 1 / 3;
     grid-row: 3 / 8;
+    display: grid;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .main-page__sections {
   margin-top: 40px;
   margin-bottom: 40px;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-column: 1/8;
 }
 
 
 /*About us*/
 .main-page__about{
-    grid-column: 1/9;
     margin-bottom: 40px;
     padding-left: 20px;
     padding-right: 20px;
+    grid-row: 1;
 }
 
 .main-page__about--us{
@@ -251,9 +255,7 @@ main {
 
 /*What*/
 .main-page__what{
-  grid-column: 1/8;
-  gap: 40px ;
-
+  grid-row: 2;
 }
 
 .main-page__what-container {
@@ -262,6 +264,7 @@ main {
   grid-row: 3;
   grid-column: 1 / 9;
   margin-inline: 5vw;
+  margin-top: 20px;
 }
 
 .abp__references{
@@ -305,6 +308,7 @@ main {
 
 .main-page__why{
   gap: 25px;
+  grid-row: 3;
 }
 
 .conteCarrousel{
@@ -355,6 +359,14 @@ main {
   background-color: rgb(200, 226, 50);
 }
 
+#itemCarrousel-4{
+  background-color: rgb(226, 50, 129);
+}
+
+#itemCarrousel-5{
+  background-color: rgb(50, 226, 114);
+}
+
 .conteCarrouselController{
   width: 100%;
   display: flex;
@@ -380,6 +392,10 @@ main {
 
 
 /*Formulario*/
+
+.main-page__contact {
+  grid-row: 4;
+}
 
 
 #contacto_container {

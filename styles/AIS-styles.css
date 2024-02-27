@@ -386,7 +386,7 @@ main {
   gap: 40px;
   padding-top: 40px;
   padding-bottom: 40px;
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.20) 100%), url('./images/MHQWerkx4NRrNSJEnGNX--1--n74fr.webp'), lightgray 50% / cover no-repeat;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.20) 100%), url('../images/MHQWerkx4NRrNSJEnGNX--1--n74fr.webp'), lightgray 50% / cover no-repeat;
   /*background-image: url('./styles/MHQWerkx4NRrNSJEnGNX--1--n74fr.webp');*/
   background-repeat: no-repeat;
   background-size: cover;

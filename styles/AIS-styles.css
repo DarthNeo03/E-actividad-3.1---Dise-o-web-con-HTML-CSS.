@@ -428,7 +428,7 @@ main {
   border-radius: 10px;
   border: 2px solid #FFF;
   height: 58px;
-  background-color: unset;
+  background-color: gray ;
 }
 
 #message {
@@ -445,13 +445,17 @@ main {
 /*Fuentes del formulario:*/
 .input_form {
   color: #FFF;
-  font-size: 15px;
+  font-size: 17px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 550;
   line-height: normal;
+  padding: 10px;
 }
 
-
+.t-form {
+  color: white;
+  font-size: x-large;
+}
 
 .contact--h2{
   text-align: center;

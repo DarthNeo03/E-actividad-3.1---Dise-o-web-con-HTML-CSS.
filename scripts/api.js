@@ -15,7 +15,14 @@ form1.addEventListener("submit", evento => {
             "Content-Type": "application/json"
         }
     })
-        .then(res => console.log(res.json()))
+        .then(async (res) =>  {
+            console.debug(res);
+            let data = await res.json();
+            console.debug(data);
+            if (Object.hasOwnProperty.call(data, "_id")) {
+                alert('Datos enviados. Gracias por contactarnos...');
+            }
+        })
         .catch(e => console.error(e));
 })
 
@@ -25,7 +32,7 @@ form1.addEventListener("submit", evento => {
 
 
 //Para comprobar si se guardaron los datos en el servidor
-var consultar = async function () {
+async function consultar () {
     let response = await fetch(urlSubs, {
         method: "GET",
         headers: {
@@ -45,7 +52,7 @@ var consultar = async function () {
 
 
 //Para cerrar el nav desplegable
-function close () {
+function close() {
     document.getElementById('menu__toggle').checked = false
 }
 const bNavs = document.getElementsByClassName("menu__item");

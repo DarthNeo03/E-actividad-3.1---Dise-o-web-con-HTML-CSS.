@@ -25,7 +25,7 @@ form1.addEventListener("submit", evento => {
 
 
 //Para comprobar si se guardaron los datos en el servidor
-async function consultar() {
+var consultar = async function () {
     let response = await fetch(urlSubs, {
         method: "GET",
         headers: {
@@ -39,3 +39,16 @@ async function consultar() {
 
 
 //La función anterior se realizó únicamente con fines demostrativos. No es correcto conceder el acceso a esos datos a cualquier usuario.
+
+
+
+
+
+//Para cerrar el nav desplegable
+function close () {
+    document.getElementById('menu__toggle').checked = false
+}
+const bNavs = document.getElementsByClassName("menu__item");
+for (const bNav of bNavs) {
+    bNav.addEventListener("click", close)
+}

@@ -390,6 +390,16 @@ main {
 }
 
 
+@keyframes parallax {
+  to {
+    transform: translateY(calc(var(--parallax-speed)*2000px));
+  }
+}
+
+.landing-page *{
+  animation: parallax linear;
+  animation-timeline: scroll();
+}
 
 /*Formulario*/
 
@@ -626,6 +636,7 @@ main {
     display: inline-block;
     max-width: 510px;
     margin: 120px 0 60px auto;
+    --parallax-speed :.8; 
   }
 
   .mobileLogo{
@@ -634,6 +645,8 @@ main {
 
   .ivp{
     width: auto;
+    --parallax-speed :.7; 
+
   }
 
 
